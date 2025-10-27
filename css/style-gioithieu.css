@@ -1,6 +1,3 @@
-/* ======================================= */
-/*               1. HEADER & MENU           */
-/* ======================================= */
 * {
   margin: 0;
   padding: 0;
@@ -36,11 +33,6 @@ header {
   text-decoration: none;
   font-weight: 500;
 }
-
-
-/* ======================================= */
-/*               2. BANNER MAIN             */
-/* ======================================= */
 .banner_main {
     position: relative;
     height: 300px;
@@ -69,10 +61,6 @@ header {
     font-weight: 700;
     text-transform: uppercase;
 }
-
-/* ======================================= */
-/*             3. TIÊU ĐỀ CHUNG & BUTTON     */
-/* ======================================= */
 .container{
     text-align: center;
 }
@@ -121,18 +109,14 @@ h3 {
     color: white;
 }
 .travel_uss:hover {
-    /* Đảo ngược màu khi hover */
     background-color: var(--primary-color);
     color: white;
 }
-/* ======================================= */
-/*               4. KHU VỰC CHUNG (meetOurTeam) */
-/* ======================================= */
 .position {
     color: gray;
 }
 .meetOurTeam {
-    background-image: url('/Gioithieu/gioithieu.img/background.jpg');
+    background-image: url('/img/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #faf7faf4;
@@ -166,8 +150,6 @@ h3 {
     font-weight: 700;
     background: rgb(254, 252, 254);
 }
-
-/* Định dạng Vị trí */
 .meetOurTeam .text_tieusu .position {
     display: block;
     font-size: 1rem;
@@ -175,8 +157,6 @@ h3 {
     font-weight: 600;
     margin-bottom: 15px;
 }
-
-/* Định dạng Đoạn Văn */
 .meetOurTeam .text_tieusu p {
     font-size: 18px;
     line-height: 1.6;
@@ -184,9 +164,6 @@ h3 {
     margin-bottom: 0;
     text-align: left;
 }
-/* ======================================= */
-/*               6. FOOTER
-/* ======================================= */
 footer {
       background: linear-gradient(135deg, #f9f9fb, #eef0ff);
       font-family: "Segoe UI", Arial, sans-serif;
@@ -194,7 +171,6 @@ footer {
       padding: 50px 0 20px;
       border-top: 3px solid ;
     }
-
     .footer-container {
       display: flex;
       flex-wrap: wrap;
@@ -233,8 +209,6 @@ footer {
       color: #4F1C6B;
       margin-right: 8px;
     }
-
-    /* --- Footer bottom --- */
     .footer-bottom {
       display: flex;
       flex-wrap: wrap;
@@ -267,8 +241,6 @@ footer {
     .footer-pay img:hover {
       transform: scale(1.1);
     }
-
-    /* --- Mạng xã hội --- */
     .icon {
       text-align: right;
       padding: 10px;
@@ -294,8 +266,6 @@ footer {
       color: #4F1C6B;
       transform: translateY(-3px);
     }
-
-    /* --- Responsive --- */
     @media (max-width: 768px) {
       .footer-container {
         text-align: center;
@@ -311,4 +281,5 @@ footer {
         flex-direction: column;
         gap: 10px;
       }
+
     }
