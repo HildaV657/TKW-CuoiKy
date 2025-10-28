@@ -1,11 +1,3 @@
-// ------------------------
-// Xử lý form đặt tour
-// ------------------------
-document.getElementById("bookingForm").addEventListener("submit", function (e) {
-  e.preventDefault();
-  alert("🎉 Cảm ơn bạn! Chúng tôi sẽ liên hệ sớm để xác nhận tour.");
-  this.reset();
-});
 
 // ------------------------
 // HERO SLIDESHOW
@@ -33,3 +25,4 @@ function changeHeroImage() {
 // Ảnh đầu tiên và bắt đầu chạy slideshow
 hero.style.backgroundImage = `url('${images[0]}')`;
 setInterval(changeHeroImage, 1000);
+
