@@ -56,8 +56,6 @@ input, button, textarea, select {
     padding-left: 15px;
     padding-right: 15px;
 }
-
-/*    NAVBAR   */
 *{
   margin: 0;
   padding: 0;
@@ -103,7 +101,6 @@ header {
     margin: 0 auto;
     padding: 30px 20px;
 }
-
 .tour-container {
     flex: 1;
     display: grid;
@@ -255,8 +252,6 @@ header {
     opacity: 0.9;
     box-shadow: 0 4px 8px rgba(103, 58, 183, 0.4);
 }
-
-
 footer {
       background: linear-gradient(135deg, #f9f9fb, #eef0ff);
       font-family: "Segoe UI", Arial, sans-serif;
@@ -303,8 +298,6 @@ footer {
       color: #4F1C6B;
       margin-right: 8px;
     }
-
-    /* --- Footer bottom --- */
     .footer-bottom {
       display: flex;
       flex-wrap: wrap;
@@ -337,8 +330,6 @@ footer {
     .footer-pay img:hover {
       transform: scale(1.1);
     }
-
-    /* --- Mạng xã hội --- */
     .icon {
       text-align: right;
       padding: 10px;
@@ -364,8 +355,6 @@ footer {
       color: #4F1C6B;
       transform: translateY(-3px);
     }
-
-    /* --- Responsive --- */
     @media (max-width: 768px) {
       .footer-container {
         text-align: center;
@@ -387,7 +376,7 @@ footer {
     .tour-container {
         grid-template-columns: 1fr; 
     }
-    /* Footer */
+
     .footer__logo,
     .company__info {
         text-align: center;
@@ -417,4 +406,5 @@ footer {
     .layout {
         padding: 12px;
     }
+
 }
