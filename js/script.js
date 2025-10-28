@@ -24,5 +24,6 @@ function changeHeroImage() {
 
 // Ảnh đầu tiên và bắt đầu chạy slideshow
 hero.style.backgroundImage = `url('${images[0]}')`;
-setInterval(changeHeroImage, 1000);
+setInterval(changeHeroImage, 2000);
+
 
