@@ -6,16 +6,13 @@
 }
 .banner img {
   width: 100%;
-  display: block; /* tránh khoảng trắng dưới ảnh */
+  display: block;
 }
-
-
 header {
   background: white;
   color:#4F1C6B ;
   padding: 15px 0;
 }
-
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -194,3 +191,4 @@ footer {
 .footer-social .social-icons a:hover {
   color: #6c63ff;
 }
+
