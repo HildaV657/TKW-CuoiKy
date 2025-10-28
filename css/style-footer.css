@@ -1,6 +1,4 @@
-/* ========================================================================= */
-/* FOOTER                                                                    */
-/* ========================================================================= */
+
 footer {
       background: linear-gradient(135deg, #f9f9fb, #eef0ff);
       font-family: "Segoe UI", Arial, sans-serif;
@@ -108,8 +106,6 @@ footer {
       color:#4F1C6B;
       transform: translateY(-3px);
     }
-
-    /* --- Responsive --- */
     @media (max-width: 768px) {
       .footer-container {
         text-align: center;
@@ -125,4 +121,5 @@ footer {
         flex-direction: column;
         gap: 10px;
       }
+
     }
